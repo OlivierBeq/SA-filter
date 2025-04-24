@@ -1,4 +1,4 @@
-rule_id,rule_set,description,smarts,rule_set_name,priority,max
+rule_id,rule_set,description,smarts,rule_set_name,priority,max_val
 1,1,R1 Reactive alkyl halides,"[Br,Cl,I][CX4;CH,CH2]",Glaxo,8,0
 2,1,R2 Acid halides,"[S,C](=[O,S])[F,Br,Cl,I]",Glaxo,8,0
 3,1,R3 Carbazides,O=CN=[N+]=[N-],Glaxo,8,0
@@ -203,7 +203,7 @@ rule_id,rule_set,description,smarts,rule_set_name,priority,max
 202,3,aziridine_diazirine,"[C,N]1~[C,N]~N~1",BMS,7,0
 203,3,azo_amino,[N]=[N;!R]-[N],BMS,7,0
 204,3,azo_aryl,c[N;!R;!+]=[N;!R;!+]-c,BMS,7,0
-205,3,azo_filter1,[N;!R]=[N;!R]-[N]=[*],BMS,7,0
+205,3,azo_1,[N;!R]=[N;!R]-[N]=[*],BMS,7,0
 206,3,azo_filter2,[N;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!r3;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!$(N-S(=O)(=O));!$(N-C=O)],BMS,7,0
 207,3,azo_filter3,[N;!R]-[N;!R]-[N;!R],BMS,7,0
 208,3,azo_filter4,a-N=N-[N;H2],BMS,7,0
