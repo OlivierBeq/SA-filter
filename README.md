@@ -29,7 +29,7 @@ so **@PatWalters** edited them and included a complete list of the changes made 
 
 ## Installation
 
-`pip install sa-sift`
+`pip install sa-filter`
 
 ## Usage
 
